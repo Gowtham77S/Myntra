@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.slide-container{
+    width: auto;
+    height: 404px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.image-container{
+    width: 17280px;
+    height: 404px;
+    position: relative;
+    transition:left 2s;
+    -webkit-transition:left 2s;
+    -moz-transition: left 2s;
+}
+.slider-image{
+    float: left;
+    width: 1536px;
+    height: 404px;
+}
+.btn-container{
+    margin-left: 47%;
+    position: relative;
+}
+.slider-button{
+    display: inline-block;
+    width: 07px;
+    height: 07px;
+    border-radius: 5px;
+    background-color: grey
+}
+.slider-button:hover{
+    background-color: black
+}
+#slider-image-1:target ~ .image-container{
+    left:0px;
+}
+#slider-image-2:target ~ .image-container{
+    left:-1536px;
+}
+#slider-image-3:target ~ .image-container{
+    left:-3072px;
+}
+#slider-image-4:target ~ .image-container{
+    left:-4608px;
+}
+#slider-image-5:target ~ .image-container{
+    left:-6144px;
+}
+#slider-image-6:target ~ .image-container{
+    left:-7680px;
+}
+#slider-image-7:target ~ .image-container{
+    left:-9216px;
+}#slider-image-8:target ~ .image-container{
+    left:-10752px;
+}
+#slider-image-9:target ~ .image-container{
+    left:-12288px;
+}
+
+/* HEADER */
+.header{
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow:0 5px 10px  rgb(181, 179, 1790);
+    background-color: #ffff;
+    
+    
+}
+.heada {
+    padding: 0 17px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    border-bottom: none;
+    font-weight: 700;
+    overflow: hidden;
+    
+}
+.controls{
+    letter-spacing: 20px;
+}
+.controls2{
+    display: block;
+    font-size:x-small; 
+    text-decoration: none;
+    letter-spacing: 0px;
+    margin-left: 50px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 300;
+}
+.desktop-searchBar{
+    display: inline-block;
+    font-size: 14px;
+    width: 480px;
+    height: 20px;
+    line-height: 24px;
+    color: #696e79;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+}
