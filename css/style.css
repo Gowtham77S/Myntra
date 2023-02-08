@@ -14,14 +14,16 @@
 
 /* HEADER */
 .header{
-    top: 0;
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 100%;
     position: fixed;
     right: 0;
     left: 0;
     z-index: 10;
-    box-shadow:0 5px 10px  rgb(181, 179, 1790);
+    box-shadow:0 5px 10px  grey;
     background-color: #ffff;
-    
+
     
 }
 .heada {
@@ -33,7 +35,7 @@
     color: #282c3f;
     border-bottom: none;
     font-weight: 700;
-    overflow: hidden;
+   
     
 }
 .controls{
